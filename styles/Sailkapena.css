@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.item5{
+display: flex;
+display: grid;
+justify-content: right;
+grid-column: span;
+}
