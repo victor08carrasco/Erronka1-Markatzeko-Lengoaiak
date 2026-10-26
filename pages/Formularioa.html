@@ -20,7 +20,7 @@
         <div class="formularioa">
             <h1>Harremanetarako formularioa</h1>
             <p><small>*Derrigorrezko eremuak</small></p>
-            <form action="mailto:info@gamestop.com">
+            <form action="mailto:info@gamestop.com" method="post" enctype="text/plain">
                 <fieldset>
                     <legend>Datuak</legend>
                     <label for="Izen-Abizenak">*Izen-Abizenak:</label>
@@ -54,7 +54,6 @@
                             <option value="Grezia">Grezia</option>
                             <option value="Herbehereak">Herbehereak</option>
                             <option value="Hungaria">Hungaria</option>
-                            <option value="Ingalaterra">Ingalaterra</option>
                             <option value="Irlanda">Irlanda</option>
                             <option value="Islandia">Islandia</option>
                             <option value="Italia">Italia</option>
@@ -84,7 +83,7 @@
                     <legend>Mezua</legend>
                 <label for="mezua">*Mezua:</label><br>
                 <textarea id="mezua" name="mezua" minlength="10" maxlength="1000" rows="2"       required placeholder="Idatzi zure mezua hemen..."></textarea><br><br>
-
+                </fieldset>     
                 <input type="submit" value="Bidali">
                 <input type="reset" value="Garbitu">
             </form>
