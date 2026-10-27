@@ -1,0 +1,16 @@
+.news-page {
+    display: block;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.news {
+    background-color: #222836;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 10px 20px;
+}
+
+.news h2 {
+    color: #02c4c4;
+}
