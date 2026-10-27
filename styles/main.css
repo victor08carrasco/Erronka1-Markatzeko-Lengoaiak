@@ -31,7 +31,6 @@ main{
 div{
     border-radius: 30px; 
     display: flex;
-    flex-direction: column;
     justify-content:center;
     align-items: center;
     background-color: #2e3443;
