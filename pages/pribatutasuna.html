@@ -1,93 +1,356 @@
+```html
 <!DOCTYPE html>
 <html lang="eu">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lege Baldintzak, Pribatutasuna eta Cookieak - GameStop</title>
+    <title>Lege-baldintzak, pribatutasuna eta telemetria</title>
+    <meta name="description" content="GameStop Magazine aldizkari digitalaren erabilera-baldintzak, datuen babesari buruzko politika eta telemetria-zerbitzuen baldintzak.">
+
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="icon" type="image/png" href="../img/icons/favicon.png">
 </head>
+
 <body>
 
     <header>
-        <a href="index.html">
-            <img src="../assets/logo.png" alt="GameStop Logo">
-        </a>
+        <nav aria-label="Nabigazio nagusia">
+            <a href="../index.html" aria-label="GameStop Magazine hasierako orria">
+                <img src="../img/Logo-zuria.png" alt="GameStop Magazine logoa">
+            </a>
+        </nav>
     </header>
 
     <main>
-        <h1>Lege Baldintzak, Pribatutasun Politika eta Cookieak</h1>
-        <p><em>Abisua: Webgune honetan sartze hutsarekin zure arima, gailua eta datu guztiak guretzat dira. Irakurri arretaz.</em></p>
+        <h1>Erabilera-baldintzak, datuen babesa eta telemetria-zerbitzuen politika</h1>
 
-        <!-- 1. LEGE OHARRA -->
-        <section>
-            <h2>1. Lege Oharra (Aviso Legal)</h2>
-            <p>Webgune honen jabea <strong>GameStop Megacorporation S.A.</strong> da (aurrerantzean, "Gure Inperioa").</p>
+        <p>
+            <em>
+                Azken berrikuspen juridikoa: 2026ko urria.
+                Aldizkari digital hau % 100 doakoa da. Bertan sartzeak,
+                artikuluak irakurtzeak edo zerbitzuak erabiltzeak kontratu-baldintza
+                hauek onartzea dakar. Erabiltzaileak adierazten du testu hau
+                irakurri eta ulertu duela.
+            </em>
+        </p>
+
+        <!-- 1. LEGE-OHARRA, LIZENTZIA ETA JURISDIKZIOA -->
+        <section aria-labelledby="lege-oharra">
+            <h2 id="lege-oharra">1. Lege-oharra, irakurketa-lizentzia eta erregistrorik eza</h2>
+
+            <p>
+                Blog eta argitalpen digital honen jabetza esklusiboa
+                <strong>GameStop Megacorporation S.A.</strong> enpresarena da
+                (aurrerantzean, <strong>«Gure Inperioa»</strong>), egoitza soziala
+                <strong>Pajares Kalea 34, 48980 Santurtzi (Bizkaia)</strong>
+                helbidean duena. Atari honetan nabigatzen duen pertsona fisiko
+                edo juridikoari <strong>«Erabiltzailea»</strong> deituko zaio.
+            </p>
+
             <ul>
-                <li><strong>Jabetza Intelektuala:</strong> Pantailan ikusten duzun guztia gurea da. Webgunea kargatzen duzun bitartean gure orria bistaratzen duen zure monitorea ere gurea dela aldarrikatzeko eskubidea gordetzen dugu.</li>
-                <li><strong>Erabilera Baldintzak:</strong> Webgunea erabiltzeagatik gutxienez 50€ ordaindu beharko zeniguke, baina doan uzten dizugu zure datuak kentzearen truke.</li>
-                <li><strong>Erantzukizun Eza:</strong> Webgune honek zure ordenagailuak su hartzea eragiten badu edo zure banku-kontua husten badu, guztiz zure culpa da. Guk ez dugu inoiz erantzukizunik hartzen.</li>
+                <li>
+                    <strong>Erregistrorik eta konturik eza:</strong>
+                    Azpiegitura-kostuak murrizteko eta ataria % 100 doakoa izateko,
+                    ez dago erabiltzaile-konturik ezta harpidetzarik ere.
+                    Identifikazioa automatikoki egiten da telemetriaren eta
+                    aztarna digitalaren bidez.
+                </li>
+
+                <li>
+                    <strong>Irakurketa-lizentzia mugatua:</strong>
+                    Webgune honetako artikuluak, irudiak eta gainerako edukiak
+                    Erabiltzaileari lizentziatzen zaizkio, ez zaizkio saltzen,
+                    erabilera pertsonal, ez-esklusibo eta aldi baterako baterako.
+                    Saioa amaitzean edo Gure Inperioak hala erabakitzen duenean,
+                    lizentzia automatikoki baliogabetuko da.
+                </li>
+
+                <li>
+                    <strong>Jurisdikzioa eta auzien ebazpena:</strong>
+                    Sortzen diren auzi juridikoak Santurtziko epaitegietan
+                    ebatziko dira, aplikatu beharreko legeak eta eskumen-arauak
+                    errespetatuz. Erabiltzaileak bere gain hartuko ditu prozesuaren
+                    kostu propioak, auzia irabazi arren. Erreklamazioak aurkezteko
+                    gehieneko epea sei hilabetekoa izango da, gertakariaren
+                    biharamunetik zenbatzen hasita.
+                </li>
+
+                <li>
+                    <strong>Ekintza kolektiboei uko egitea:</strong>
+                    Erabiltzaileak berariaz uko egiten dio Gure Inperioaren aurka
+                    talde-akzioetan, demanda kolektiboetan edo ekintza kolektiboetan
+                    parte hartzeko eskubideari.
+                </li>
             </ul>
         </section>
 
-        <!-- 2. PRIBATUTASUN POLITIKA -->
-        <section>
-            <h2>2. Pribatutasun Politika (Datuen Abusuzko Tratamendua)</h2>
-            <p>Zure pribatutasuna asko inporta zaigu... enkantean gehiago ordaintzen duenari saldu ahal izateko.</p>
-            
-            <h3>Zein datu biltzen ditugu?</h3>
-            <p>Formularioan idazten duzunaz gain, honako hau gordetzen dugu automatikoki:</p>
+        <!-- 2. TELEMETRIA ETA FORMULARIOAREN DATUEN TRATAMENDUA -->
+        <section aria-labelledby="datuen-tratamendua">
+            <h2 id="datuen-tratamendua">
+                2. Datuen tratamendua, formularioak eta «ezinbesteko» telemetria
+            </h2>
+
+            <p>
+                Aldizkaria doakoa denez, Erabiltzailearen datuak modu automatizatuan
+                biltzen eta aztertzen dira, Europar Batasuneko Datuak Babesteko
+                Erregelamendu Orokorraren (DBEO/RGPD) 6.1.f artikuluan oinarrituta.
+                Tratamendu horren oinarria Gure Inperioaren interes legitimoa da,
+                aldizkari digitalaren finantzaketari eta edukiak eskuragarri
+                izateari dagokienez.
+            </p>
+
+            <h3>2.1. Harremanetarako formularioaren datuen tratamendua</h3>
+
+            <p>
+                Harremanetarako formularioan sartutako datu pertsonalak
+                (izen-abizenak, posta elektronikoa, telefono-zenbakia, herrialdea
+                eta mezua) Gure Inperioaren datu-base zentralizatuan sartuko dira,
+                informazioa kudeatzeko eta tratamenduaren helburuak betetzeko.
+            </p>
+
             <ul>
-                <li>Zure saguaren mugimendu bakoitza eta teklatuan idazten duzun guztia (pasahitzak barne).</li>
-                <li>Zure katuaren edo txakurraren kokapena denbora errealean.</li>
-                <li>Zure webcam-aren bidez lortutako argazkiak, batez ere txarrean ateratzen zarenean.</li>
-                <li>Zure arakatzailearen historia osoa 2012tik gaur egunera arte.</li>
+                <li>
+                    <strong>Profil integratua eta lotura digitala:</strong>
+                    Formularioan idatzitako datu pertsonalak automatikoki lotuko
+                    dira Erabiltzailearen Canvas/WebGL bidezko aztarna digitalarekin,
+                    IP helbidearekin eta telemetria-sentsoreekin, profil
+                    kognitibo-komertzial bakarra osatzeko.
+                </li>
+
+                <li>
+                    <strong>Komertzializazioa eta datu-artekariak:</strong>
+                    Formularioa bidaltzean edo onarpen-laukia hautatzean,
+                    Erabiltzaileak baimen zehatza eta atzeraezina ematen dio
+                    Gure Inperioari datuak hirugarrenei, datu-artekariei
+                    (<em>data brokers</em>) eta publizitate-sareei lagatzeko,
+                    alokatzeko edo enkantean jartzeko.
+                </li>
+
+                <li>
+                    <strong>Harreman komertzial iraunkorrak:</strong>
+                    Bidalitako mezuari erantzuteko behar den denboraz gain,
+                    datuak Gure Inperioaren zerbitzarietan gordeko dira
+                    publizitate-prospekziorako eta barne-analisietarako.
+                </li>
             </ul>
 
-            <h3>Norekin partekatzen ditugu zure datuak?</h3>
-            <p>Gure datu-basea publikoa da publizitate-enpresa guztientzat, nazioarteko spammer-entzat eta ilunpetako korporazioentzat. Zerbitzaririk gabe gelditzen bagara, zure datuak inprimatu eta kalean banatuko ditugu.</p>
+            <h3>2.2. Irakurketa-esperientziarako eta segurtasunerako ezinbesteko sentsoreak</h3>
 
-            <h3>Zure eskubideak (edo haien gabezia)</h3>
+            <p>
+                Erabiltzailearen irakurketa-esperientzia eta atariaren irisgarritasuna
+                bermatzeko, honako telemetria-datu hauek etengabe bildu eta
+                prozesatzen dira zerbitzuaren oinarrizko funtzionamendurako.
+            </p>
+
             <ul>
-                <li><strong>Atzipen eskubidea:</strong> Zure datuak ikusi nahi badituzu, 500€-ko tasa ordaindu beharko duzu.</li>
-                <li><strong>Ezabatzeko eskubidea (Ezabapena):</strong> Zure datuak ezabatzeko eskatzen baduzu, automatikoki hiru kopia gehiago egingo ditugu eta zerbitzari ilunago batera bidaliko ditugu.</li>
-                <li><strong>Aurka egiteko eskubidea:</strong> Berandu da, orrialde honetan sartu zara dagoeneko.</li>
+                <li>
+                    <strong>Etengabeko geolokalizazioa (GPS eta IP):</strong>
+                    Denbora errealeko kokapena prozesatzen da tokiko albisteak
+                    hautatzeko, iruzurra prebenitzeko eta edukiak banatzeko
+                    CDN zerbitzarien karga bideratzeko.
+                </li>
+
+                <li>
+                    <strong>Irakurketa-erritmoaren eta interakzioaren sentsoreak:</strong>
+                    Teklatuaren sakatze-kadentzia, saguaren mugimenduen denborak,
+                    orrialdearen <em>scroll</em> abiadura eta gailuko sentsoreen
+                    bidez lortutako estresaren edo pultsuaren estimazioak aztertzen
+                    dira. Helburua artikuluen karga emozionala, letra-tamaina eta
+                    kolore-kontrastea erabiltzailearen egoerara egokitzea da.
+                </li>
+
+                <li>
+                    <strong>Giro-soinua eta argitasun-maila:</strong>
+                    Gailuaren mikrofonoaren eta kameraren bidez ingurumen-azterketa
+                    pasiboa egiten da, audio-proben irisgarritasun-bolumena eta
+                    pantailaren distira automatikoki kalibratzeko.
+                </li>
+
+                <li>
+                    <strong>Gailuen arteko identifikazioa
+                    (Cross-Device Identity Linking):</strong>
+                    Aztarna digitalaren bidez
+                    (Canvas/WebGL Fingerprinting), Erabiltzailearen gailu guztiak
+                    irakurle-profil bakar batera lotzen dira.
+                </li>
             </ul>
         </section>
 
-        <!-- 3. COOKIE POLITIKA -->
-        <section>
-            <h2>3. Cookie Politika (Guztiak Jarraitzeko)</h2>
-            <p>Gure webguneak mota guztietako cookieak erabiltzen ditu, baita legez kanpokoak direnak ere.</p>
-            
-            <h3>Erabiltzen ditugun Cookie Motak:</h3>
+        <!-- 3. ADBLOCK, BANEOAK ETA DESBANEO-PROZEDURA -->
+        <section aria-labelledby="adblock-eta-baneoak">
+            <h2 id="adblock-eta-baneoak">
+                3. AdBlock politika, baneoen irizpide teknikoak eta desbaneo-prozedura
+            </h2>
+
+            <h3>3.1. Publizitate-blokeatzaileen erabilera (AdBlock)</h3>
+
+            <p>
+                Webgune hau % 100 doakoa denez, publizitatea da Gure Inperioaren
+                finantzaketa-iturri bakarra. Erabiltzaileak <em>AdBlock</em> edo
+                antzeko blokeatzaileren bat erabiltzen badu, Gure Inperioak
+                egokitzapen teknikoak aktibatzeko eskubidea gordetzen du.
+                Besteak beste, testuaren karga atzeratu, artikuluetan ustekabeko
+                aldaketak egin edo interfazea desaktibatu ahal izango ditu.
+            </p>
+
+            <h3>3.2. Baneo iraunkorraren aplikazioa eta identifikazio-irizpideak</h3>
+
+            <p>
+                Gure Inperioak sarbide-murrizketa iraunkorrak ezartzeko eskubidea
+                gordetzen du segurtasun-arauak nahita eta modu larrian urratzen
+                dituzten erabiltzaileen aurka. Erabaki horiek hartzeko, sistemak
+                erabilgarri dituen segurtasun-adierazle teknikoak aztertu ahal
+                izango ditu, hala nola IP helbideak, saio-identifikatzaileak eta
+                nabigatzailearen ezaugarri teknikoak.
+            </p>
+
+            <p>
+                Hala ere, adierazle bakar batek edo antzekotasun tekniko hutsak
+                ez du berez erabiltzaile baten identitatea edo arau-haustearen
+                erantzukizuna frogatzen. Baneo oker baten aurrean, Erabiltzaileak
+                berrikuspen-eskaera aurkezteko aukera izango du.
+            </p>
+
             <ul>
-                <li><strong>Mendekotasun Cookieak:</strong> Webgune honetatik atera ezin izateko jarraitzaileak.</li>
-                <li><strong>Espioitza Cookieak:</strong> Beste fitxetan zer ikusten ari zaren jakiteko (bereziki lehiakideen denda sarean bazaude).</li>
-                <li><strong>Txokolatezko Cookieak:</strong> Hauek guk jaten ditugu bulegoan, zu webgunean nabigatzen ari zaren bitartean.</li>
+                <li>
+                    <strong>IP helbidearen antzekotasuna:</strong>
+                    Adierazle osagarri bat baino ez da. Berez, ez du sarbidea
+                    eragotziko konexio bera partekatzen duten beste erabiltzaileentzat.
+                </li>
+
+                <li>
+                    <strong>Fingerprinting-a eta gailuen identifikazioa:</strong>
+                    Ikerketa bideratzeko zantzu teknikoak dira. Baneo iraunkorra
+                    baieztatutako erabilera okerra edo jarduera automatizatua
+                    dagoenean soilik ezarriko da.
+                </li>
             </ul>
-            <p>Cookie hauek ezabatzeko ahalegina egiten baduzu, gure sistemak zure IP helbidea blokeatuko du betiko eta drone bat bidaliko dugu zure etxera egoera egiaztatzeko.</p>
+
+            <h3>3.3. Desbaneo- edo sarbidea berrezartzeko prozedura administratiboa</h3>
+
+            <p>
+                Erabiltzaileak baneo bat okerra dela uste badu edo atarira berriz
+                sartzeko baimena eskatu nahi badu, <strong>desblokeatze-auditoretzako
+                eskaera-formularioa</strong> aurkeztu ahal izango du. Prozedura
+                hori kudeatzeko, honako baldintza hauek bete beharko dira:
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Notario bidezko egiaztapena:</strong>
+                    Notario publiko baten aurrean egiaztatutako nortasun-agiriaren
+                    kopia eta gailuaren jabetza egiaztatzen duen notario-ziurtagiria
+                    aurkeztu beharko dira.
+                </li>
+
+                <li>
+                    <strong>Posta ziurtatua:</strong>
+                    Eskaera-inprimakia sinatuta eta posta ziurtatu bidez bidali
+                    beharko da Gure Inperioaren egoitza administratibora:
+                    <em>Pajares Kalea 34, 48980 Santurtzi (Bizkaia)</em>.
+                </li>
+
+                <li>
+                    <strong>Desbaneo-tasa teknikoa:</strong>
+                    <strong>50 euroko auditoretza-tasa ez-itzulgarria</strong>
+                    ordaindu beharko da eskaera bakoitzeko, IP helbidearen analisia
+                    eta sarearen azterketa teknikoa egiteko.
+                </li>
+            </ul>
+
+            <p>
+                Eskaera jasotzen denetik, Gure Inperioak 180 laneguneko epea izango
+                du azterketa teknikoa egiteko. Tasa ordaintzeak edo eskaera bidaltzeak
+                ez du bermatzen baneo hori kenduko denik, azken erabakia Gure
+                Inperioaren segurtasun-sistemek hartuko baitute.
+            </p>
+
+            <h3>3.4. ARCO eskubideak, tasak eta datuak ezabatzeko epea (DBEO/RGPDren 12.5 artikulua)</h3>
+
+            <p>
+                Erabiltzaileak bere datuak eskuratzeko, zuzentzeko edo ezabatzeko
+                eskaera egiteko eskubidea du. Lehenengo eskaera doakoa izango da.
+                Hala ere, DBEO/RGPDren 12.5 artikuluak ahalbidetzen duen moduan,
+                12 hilabeteko epean egiten diren <strong>eskaera gehigarri guztiak
+                gehiegizkotzat joko dira eta eskaera bakoitzeko 35 euroko
+                kudeaketa-tasa administratiboa</strong> ezarriko da.
+            </p>
+
+            <p>
+                Datuak ezabatzen badira edo baneo bat ezartzen bada, legezko
+                defentsarako eta auditoretza digitalerako babes-neurriak direla
+                medio, Erabiltzailearen informazio-multzoa, formularioetako datuak
+                eta aztarna digitalak <strong>120 eta 240 hilabete arteko epean
+                (10-20 urte)</strong> gordeko dira Gure Inperioaren
+                babes-zerbitzarietan.
+            </p>
         </section>
 
-        <!-- ATZERA BOTOIA -->
-        <div>
-            <a href="index.html">Atzera / Baldintza Guztiak Onartu</a>
-        </div>
+        <!-- 4. BALDINTZEN ALDAKETAK ETA DNT -->
+        <section aria-labelledby="baldintzen-aldaketak">
+            <h2 id="baldintzen-aldaketak">
+                4. Baldintzak aldatzea aldez aurreko abisurik gabe eta DNT
+            </h2>
+
+            <ul>
+                <li>
+                    <strong>Aldez aurreko abisurik gabeko aldaketak:</strong>
+                    Gure Inperioak baldintza hauek edozein unetan, alde bakarretik
+                    eta <strong>aldez aurretik jakinarazi gabe</strong> aldatzeko
+                    eskubidea gordetzen du. Bloga erabiltzen jarraitzeak baldintza
+                    berriak onartzea dakar.
+                </li>
+
+                <li>
+                    <strong>Do Not Track (DNT) seinaleak:</strong>
+                    DNT seinaleak ez dira berez juridikoki lotesleak. Gure Inperioak
+                    funtsezkoak ez diren jarraitzaile komertzial batzuk murriztu
+                    ahal izango ditu, baina 2.2 atalean zehaztutako ezinbesteko
+                    sentsore teknikoek aktibo jarraituko dute.
+                </li>
+            </ul>
+        </section>
+
+        <!-- 5. KLAUSULEN BANAGARRITASUNA -->
+        <section aria-labelledby="klausulen-banagarritasuna">
+            <h2 id="klausulen-banagarritasuna">
+                5. Klausulen banagarritasuna (babes-klausula)
+            </h2>
+
+            <p>
+                Epaitegi edo erakunde eskudun batek kontratu honetako klausularen
+                bat baliogabea, legez kanpokoa edo bete ezinekoa dela ebazten badu,
+                baliogabetasun horrek klausula horri bakarrik eragingo dio.
+                Gainerako klausulek bere horretan jarraituko dute, baliozkoak
+                eta indarrean, Gure Inperioaren eta Erabiltzailearen arteko
+                lotura juridikoa osorik mantenduz, aplikatu beharreko legeak
+                errespetatuz.
+            </p>
+        </section>
     </main>
-
-    <footer>
-        <div>
-            <a href="legal.html">Lege Oharra, Pribatutasuna eta Cookieak</a>
+        <footer>
+        <div class="social-media">
+            <a href="mailto:info@gamestop.com">
+                <img src="../img/email-envelope-3d-icon-png.webp" alt="Email" title="Email">
+                info@gamestop.com   
+            </a>
+            <a href="https://x.com/gamestop" target="_blank" aria-label="Twitter">
+                <img src="../img/icons/X.png" alt="Twitter" title="twitter">Twitter (X)    
+            </a>
+            <a href="https://www.youtube.com/gamestopvideo" target="_blank" aria-label="YouTube">
+                <img src="../img/icons/youtube.ico" class="youtube" alt="YouTube" title="YouTube">YouTube  
+            </a>
+            <a href="https://www.facebook.com/GameStop" target="_blank" aria-label="Facebook">
+                <img src="../img/icons/facebook.ico" alt="Facebook" title="Facebook">Facebook  
+            </a>
+            <a href="https://www.instagram.com/gamestop" target="_blank" aria-label="Instagram">
+                <img src="../img/icons/Ny6hrBVLYjl.webp" alt="Instagram" title="Instagram">Instagram   
+            </a>
+            <a href="https://www.tiktok.com/@gamestop" target="_blank" aria-label="TikTok">
+                <img src="../img/icons/tik-tok-logo_578229-290.png" alt="TikTok" title="TikTok">TikTok     
+            </a>
         </div>
-        <div>
-            <a href="mailto:info@gamestop.com">📧 info@gamestop.com</a>
-            <a href="#">Twitter (X)</a>
-            <a href="#">YouTube</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">TikTok</a>
-        </div>
-        <p>© 2026 GameStop. Eskubide guztiak (eta zure animarena ere bai) erreserbatuta.</p>
+    <p>&copy; 2026 GameStop. Eskubide guztiak erreserbatuta.</p><small><a href="pribatutasuna.html">Pribatutasun politika</a></small>
     </footer>
-
 </body>
 </html>

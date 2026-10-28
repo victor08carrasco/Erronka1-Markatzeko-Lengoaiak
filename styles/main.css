@@ -5,6 +5,10 @@ body{
     display: flex;
     flex-direction: column;
 }
+header a img{
+    width: 120px;
+    height: 100px;
+}
 a{
     color: #02c4c4;
     text-decoration: none;
