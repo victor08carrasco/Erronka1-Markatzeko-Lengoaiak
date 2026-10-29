@@ -13,6 +13,10 @@ a{
     color: #02c4c4;
     text-decoration: none;
 }
+iframe{
+    border-radius: 30px;
+    border: 2px solid teal; 
+}
 nav{
     border-radius: 30px; 
     display: flex;
