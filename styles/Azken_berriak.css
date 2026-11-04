@@ -1,0 +1,167 @@
+body {
+    background-color: #171b25;
+    color: white;
+       display: flex;
+
+    flex-wrap: wrap;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 6fr; 
+    grid-template-rows: auto auto 1fr auto auto; 
+  
+}
+
+body > header{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+body > aside{
+       grid-column: 1;
+    grid-row: 1/6;
+     background-color: black;
+}
+
+body > main{
+     grid-column: 2/3;
+    grid-row: 3/5;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px
+}
+
+body > footer{
+   grid-column: 2/4;
+   grid-row: 5;
+   text-align: center;
+}
+body > nav{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+body > section{
+    grid-column: 2/3;
+    grid-row: 4;
+    background-color: #171b25;
+    align-items: center;
+}
+#lehenengoa{
+    flex-grow: 1;
+    min-width: 700px;
+    min-height: 800px;
+}
+div{
+    background-color: #32394d;
+}
+
+section{
+     background-color: #32394d;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+section main{
+    flex: 1;
+}
+
+section > footer{
+    text-align: right;
+   
+} 
+
+footer > p {
+    color:rgb(248, 243, 243)
+}
+
+a {
+    text-decoration: none;
+    background-color: #32394d;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+
+}
+a:hover{
+    background-color: #8194c7;
+    color: #000;
+}
+body > header{
+     padding: 1em;
+     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em .5em 1em;
+    display: block
+}
+
+nav ul a:hover {
+    background-color: #8194c7;
+}
+aside > ul{
+    list-style: none;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+div>footer{
+    text-align: right;
+}
+
+li > img{
+    width: 100px;
+    height: 40px;
+    background-color: #32394d;
+}
+div > main{
+    display: flex;
+}
+main > img{
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    
+}
+a > img{
+    width: 70px;
+    height: 55px;
+}
+footer > a{
+    background-color: #171b25;
+}
+footer > a:hover{
+    background-color: #171b25;
+    align-items: center;
+}
+section > img{
+    width: 300px;
+    height: 200px;
+}
+section{
+    align-items: center;
+}
+div > main{
+text-align: right;
+   align-items: center;
+}
+nav{
+    justify-content: left ;
+}
