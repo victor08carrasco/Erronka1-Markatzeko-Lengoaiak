@@ -21,7 +21,6 @@ body {
   background-color: #003f3f;
   color: white;
   display: flex; 
-  justify-content: center; 
   align-items: center; 
   padding: 50px; 
   border-radius: 7.5px; 
@@ -75,6 +74,9 @@ body {
 grid-column: 4;
 grid-row: 7/9;
 align-self: stretch;
+font-weight: bold;
+font-size: 19px;
+
 }
 #item1{
   grid-column: 4;
