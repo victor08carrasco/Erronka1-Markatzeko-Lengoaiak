@@ -18,11 +18,11 @@ div.Kokapena{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
 }
 div.formularioa {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
 }
