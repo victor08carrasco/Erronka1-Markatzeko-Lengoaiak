@@ -11,14 +11,19 @@ body {
   align-items: center;
   
 }
-
+h2{
+  font-family: Segoe UI, Arial, Helvetica, sans-serif;
+  color: #ff4343;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .item {
   display: flex;
   
 }
 .item span { 
   font-family: Segoe UI, Arial, Helvetica, sans-serif;
-  background-color: #003f3f;
+  background-color: #ff4343;
   color: white;
   display: flex; 
   align-items: center; 
@@ -32,7 +37,7 @@ body {
 .faseak{
   font-family: Segoe UI, Arial, Helvetica, sans-serif;
   background-color: #2e3443;
-  color: #02c4c4;
+  color: #ffffff;
   display: flex;
   display: grid;
   grid-template-columns: repeat(7, 200px);
