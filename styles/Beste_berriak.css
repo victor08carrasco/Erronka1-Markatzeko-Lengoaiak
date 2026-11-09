@@ -1,7 +1,7 @@
 body {
     background-color: #171b25;
     color: white;
-       display: flex;
+    display: flex;
 
     flex-wrap: wrap;
     gap: 10px;
