@@ -165,3 +165,7 @@ text-align: right;
 nav{
     justify-content: left ;
 }
+header >a{
+    justify-content: start;
+    margin-right: auto;
+}
