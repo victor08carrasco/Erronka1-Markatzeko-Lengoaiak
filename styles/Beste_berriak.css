@@ -47,6 +47,9 @@ body > section{
     flex-grow: 1;
     min-width: 400px;
 }
+#bigarrena{  
+    min-width: 900px;
+}
 div{
     background-color: #32394d;
 }
