@@ -48,6 +48,7 @@ nav {
   display: flex; 
   align-items: center; 
   padding: 5px; 
+  border-radius: 10px;
   font-size: 0.9em;
   width: 100%;
   flex: 1;
@@ -264,6 +265,12 @@ align-self: stretch;
   box-shadow: 0 6px 16px teal;
 }
 
-.jokalaria .irabazlea {
-  color: black;
+#jokalaria3 span {
+  width: auto;
+  justify-content: center;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 25px;
+  box-shadow: 0 0 20px teal;
+  font-size: 1.2em;
 }
