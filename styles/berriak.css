@@ -1,16 +1,53 @@
-.news-page {
+.albisteak-orria {
     display: block;
     flex: 1;
     overflow-y: auto;
 }
 
-.news {
+.albistea {
     background-color: #222836;
     border-radius: 10px;
     margin: 15px 0;
     padding: 10px 20px;
 }
 
-.news h2 {
+.albistea h2 {
     color: #02c4c4;
+}
+
+.albistea {
+    box-shadow: 0 4px 12px #0000004d;
+
+}
+
+.albistea:hover {
+    box-shadow: 0 6px 16px teal;
+}
+
+.albistea-irudia {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid teal;
+    margin: 10px auto;
+}
+
+.albistea-botoiak {
+    display: flex;
+    justify-content: center;
+}
+
+.botoia {
+    background-color: #02c4c4;
+    color: #171b25;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #0000004d;
+}
+
+.botoia:hover {
+    box-shadow: 0 6px 16px teal;
 }
