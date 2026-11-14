@@ -26,3 +26,63 @@ div.formularioa {
   align-items: center;
   justify-content: flex-end;
 }
+
+main {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  min-width: 0;
+  border: 2px solid teal;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+}
+
+legend {
+  color: #02c4c4;
+  font-weight: bold;
+}
+
+.eremua {
+  width: 80%;
+  max-width: 500px;
+  padding: 8px 12px;
+  margin-top: 5px;
+  border: 2px solid teal;
+  border-radius: 10px;
+  background-color: #171b25;
+  color: white;
+}
+
+.botoia {
+  background-color: #02c4c4;
+  color: #171b25;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 10px 10px 0 0;
+  border: 2px solid teal;
+  border-radius: 20px;
+}
+
+.botoia:hover {
+  box-shadow: 0 6px 16px teal;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+nav {
+  flex-wrap: wrap;
+}
+
+.sare-sozialak {
+  flex-wrap: wrap;
+}
+
