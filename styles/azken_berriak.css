@@ -1,183 +1,65 @@
-body {
-    background-color: #171b25;
-    color: white;
-       display: flex;
-
-    flex-wrap: wrap;
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 1fr 6fr; 
-    grid-template-rows: auto auto 1fr auto auto; 
-     border-radius: 30px; 
-  
-}
-
-body > header{
-    grid-column: 1/4;
-    grid-row: 1;
-}
-
-body > aside{
-       grid-column: 1;
-    grid-row: 1/4;
-     background-color: black;
-}
-
-body > main{
-     grid-column: 1/3;
-    grid-row: 3/5;
-    display: flex;
-    gap: 10px;
-    border-radius: 5px
-     border-radius: 30px; 
-}
-
-body > footer{
-   grid-column: 1/4;
-   grid-row: 5;
-   text-align: center;
-     border-radius: 30px; 
-}
-body > nav{
-    grid-column: 1/3;
-    grid-row: 2;
-}
-body > section{
-    grid-column: 1/3;
-    grid-row: 4;
-    background-color: #171b25;
-    align-items: center;
-}
-#lehenengoa{
-    flex-grow: 1;
-    min-width: 700px;
-    min-height: 800px;
-     border-radius: 30px; 
-}
-div{
-    background-color: #222836;
-}
-
-section{
-     background-color: #222836;
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
-}
-section main{
-    flex: 1;
-}
-
-section > footer{
-    text-align: right;
-   
-} 
-
-footer > p {
-    color:rgb(248, 243, 243)
-}
-
-a {
-    text-decoration: none;
-    background-color: #222836;
+.albisteak-orria h1 {
     text-align: center;
-    color: white;
-    border-radius: 5px;
-
-}
-a:hover{
-    background-color: #8194c7;
-    color: #000;
-}
-body > header{
-     padding: 1em;
-     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+.albisteak-orria > p {
+    text-align: center;
 }
 
-nav ul li {
-    flex-grow: 1;
+.albistea {
+    box-shadow: 0 4px 12px #0000004d;
+   
 }
 
-nav ul a {
-    color: white;
-    text-decoration: none;
-    padding: .5em 1em .5em 1em;
-    display: block
+.albistea:hover {
+    box-shadow: 0 6px 16px teal;
 }
 
-nav ul a:hover {
-    background-color: #8194c7;
-}
-aside > ul{
-    list-style: none;
-    align-items: center;
-}
-article{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-div>footer{
-    text-align: right;
+.albistea li {
+    margin-bottom: 8px;
 }
 
-li > img{
-    width: 100px;
-    height: 40px;
+.orri-goiburua {
+    text-align: center;
+}
+
+.sarrera {
+    font-size: 1.1em;
+}
+
+.smashbros {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid teal;
+    margin: 15px auto;
+}
+
+.laburpena {
+    border: 2px solid teal;
+}
+
+.ekintzak {
     background-color: #222836;
 }
-div > main{
-    display: flex;
+
+.botoi-sailkapena {
+    background-color: #02c4c4;
+    color: #171b25;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #0000004d;
 }
-main > img{
-    width: 100px;
-    height: 100px;
-    flex-grow: 1;
-    
+
+.botoi-sailkapena:hover {
+    box-shadow: 0 6px 16px teal;
 }
-a > img{
-    width: 70px;
-    height: 55px;
+
+nav {
+    flex-wrap: wrap;
 }
-footer > a{
-    background-color: #171b25;
-}
-footer > a:hover{
-    background-color: #171b25;
-    align-items: center;
-}
-section > img{
-    width: 300px;
-    height: 200px;
-}
-section{
-    align-items: center;
-}
-div > main{
-text-align: right;
-   align-items: center;
-}
-nav{
-    justify-content: left ;
-}
-header >a{
-    justify-content: start;
-    margin-right: auto;
-}
-header >nav{
-    border-radius: 30px; 
-    display: flex;
-    background-color: #2e3443;
-    padding: 2px 10px;
-    margin: 10px;
-    margin-top: 20px;
+
+.sare-sozialak {
+    flex-wrap: wrap;
 }
