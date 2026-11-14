@@ -1,0 +1,65 @@
+.albisteak-orria h1 {
+    text-align: center;
+}
+
+.albisteak-orria > p {
+    text-align: center;
+}
+
+.albistea {
+    box-shadow: 0 4px 12px #0000004d;
+   
+}
+
+.albistea:hover {
+    box-shadow: 0 6px 16px teal;
+}
+
+.albistea li {
+    margin-bottom: 8px;
+}
+
+.orri-goiburua {
+    text-align: center;
+}
+
+.sarrera {
+    font-size: 1.1em;
+}
+
+.smashbros {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid teal;
+    margin: 15px auto;
+}
+
+.laburpena {
+    border: 2px solid teal;
+}
+
+.ekintzak {
+    background-color: #222836;
+}
+
+.botoi-sailkapena {
+    background-color: #02c4c4;
+    color: #171b25;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #0000004d;
+}
+
+.botoi-sailkapena:hover {
+    box-shadow: 0 6px 16px teal;
+}
+
+nav {
+    flex-wrap: wrap;
+}
+
+.sare-sozialak {
+    flex-wrap: wrap;
+}
