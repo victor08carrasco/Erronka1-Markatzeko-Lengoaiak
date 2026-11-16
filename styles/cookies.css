@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='eu'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>GameStop Orri Nagusia</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons/favicon.png">
+    <link rel='stylesheet' href='./styles/main.css'>
+    <link rel='stylesheet' href='./styles/berriak.css'>
+    <link rel='stylesheet' href='styles/cookies.css'>
+    <script src='cookies.js' defer></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href='./index.html'>
+                <img src='./img/Logo-zuria.png' alt='GameStop Logo' title='GameStop Logo' class='logoa'>
+            </a>
+            <a href='./pages/txapelketa.html'>
+                Txapelketarako sarrera
+            </a>
+            <a href='./pages/partaikideak.html'>
+                Partaikideak
+            </a>
+            <a href='./pages/berriak.html'>
+                Azken berriak
+            </a>
+            <a href='./pages/sailkapena.html'>
+                Sailkapena
+            </a>
+            <a href='./pages/formularioa.html'>
+                Harremanetarako formularioa
+            </a>
+        </nav>
+    </header>
+    <main class="albisteak-orria">
+        <h1>Azken berriak</h1>
+        <article class="albistea">
+            <h2> “ZeroByte” finala irabazi du</h2>
+            <img src="./img/partaikideak/gamer_ucrania.png"  title="Finala irabazi duen jokalaria" class="albistea-irudia">
+            <p>Europako txapelketako azken partida irabazi du, azken minutuko estrategia bikain bati esker.</p>
+            <p>2026ko urriaren 24a</p>
+        </article>
+        <article class="albistea">
+            <h2>“Pixel”  marka berria ezarri du</h2>
+            <img src="./img/partaikideak/south_gamer.png" title="Jokalaria bere ordenagailuaren aurrean jolasten" class="albistea-irudia">
+            <p>Pixel-ek bere joko gogokoenean puntuazio-errekor berria lortu du, komunitatea harrituta utziz.</p>
+            <p>2026ko urriaren 20a</p>
+        </article>
+        <p class="albistea-botoiak"><a href="./pages/berriak.html" class="botoia">Ikusi berri guztiak</a></p>
+    </main>
+    <footer>
+        <div class="sare-sozialak">
+            <a href="mailto:info@gamestop.com">
+                <img src="./img/email-envelope-3d-icon-png.webp" alt="Email" title="Email">
+                info@gamestop.com   
+            </a>
+            <a href="https://x.com/gamestop" target="_blank" aria-label="Twitter">
+                <img src="./img/icons/X.png" alt="Twitter" title="twitter">Twitter (X)    
+            </a>
+            <a href="https://www.youtube.com/gamestopvideo" target="_blank" aria-label="YouTube">
+                <img src="./img/icons/youtube.ico" class="youtube" alt="YouTube" title="YouTube">YouTube  
+            </a>
+            <a href="https://www.facebook.com/GameStop" target="_blank" aria-label="Facebook">
+                <img src="./img/icons/facebook.ico" alt="Facebook" title="Facebook">Facebook  
+            </a>
+            <a href="https://www.instagram.com/gamestop" target="_blank" aria-label="Instagram">
+                <img src="./img/icons/Ny6hrBVLYjl.webp" alt="Instagram" title="Instagram">Instagram   
+            </a>
+            <a href="https://www.tiktok.com/@gamestop" target="_blank" aria-label="TikTok">
+                <img src="./img/icons/tik-tok-logo_578229-290.png" alt="TikTok" title="TikTok">TikTok     
+            </a>
+        </div>
+        <p>&copy; 2026 GameStop. Eskubide guztiak erreserbatuta.</p>
+        <div id="cookies-fondo"></div> 
+        <div id="cookies">
+        <p>
+             
+            <a href="./pages/pribatutasuna.html">Cockie-ak eta antzeko tresnak</a> erabiltzen ditugu gure webgunea hobetzeko.
+        </p>
+        <div>
+            <a id="baztertu" href="https://www.google.com/">
+             <b>Cookie</b>-ak baztertu
+            </a>
+            <a id="onartu" href="#">
+            <b>Cookie</b>-ak onartu
+            </a>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
