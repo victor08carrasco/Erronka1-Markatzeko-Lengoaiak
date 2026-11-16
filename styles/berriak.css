@@ -9,15 +9,12 @@
     border-radius: 10px;
     margin: 15px 0;
     padding: 10px 20px;
+    box-shadow: 0 4px 12px #0000004d;
+    text-align: center;
 }
 
 .albistea h2 {
     color: #02c4c4;
-}
-
-.albistea {
-    box-shadow: 0 4px 12px #0000004d;
-
 }
 
 .albistea:hover {
