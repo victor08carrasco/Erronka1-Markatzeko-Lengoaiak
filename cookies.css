@@ -1,0 +1,42 @@
+#cookies-fondo {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+#cookies {
+
+    bottom: 10px;
+    left: 10px;
+    background-color: #2e3443;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 35%;
+    border-radius: 5px;
+  
+}
+
+
+
+#cookies div {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#cookies a {
+    margin: 0 10px;
+    color: #02c4c4;
+    text-decoration: underline;
+}
+
+#cookies a:hover {
+    color: white;
+}
