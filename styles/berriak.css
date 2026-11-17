@@ -21,7 +21,7 @@
     box-shadow: 0 6px 16px teal;
 }
 
-.albistea-irudia {
+img.albistea-irudia, img.smashbros {
     display: block;
     width: 100%;
     max-width: 320px;
@@ -47,4 +47,17 @@
 
 .botoia:hover {
     box-shadow: 0 6px 16px teal;
+}
+.txapelketa-sarrera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img.smashbros {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 10px;
 }
