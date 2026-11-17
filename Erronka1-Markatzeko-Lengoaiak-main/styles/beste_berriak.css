@@ -1,0 +1,143 @@
+body {
+    background-color: #171b25;
+    color: white;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto auto;
+}
+
+body > header{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 1em;
+    text-align: center;
+}
+
+body > aside{
+    grid-column: 1;
+    grid-row: 1/4;
+    background-color: black;
+    padding: 5px;
+}
+
+body > main{
+    grid-column: 1;
+    grid-row: 3/4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+body > footer{
+    grid-column: 1;
+    grid-row: 5;
+    text-align: center;
+}
+
+body > nav{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+body > section{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#lehenengoa{
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+#bigarrena{
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+div{
+    background-color: #32394d;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+div .edukia{
+    flex: 1;
+}
+
+div > footer{
+    text-align: right;
+    color: #8c8c8c;
+}
+
+footer > p {
+    color: #f8f3f3;
+}
+
+a {
+    text-decoration: none;
+    background-color: #32394d;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: #8194c7;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em 0.5em 1em;
+    display: block;
+}
+
+nav ul a:hover {
+    background-color: #8194c7;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+aside > ul{
+    list-style: none;
+}
+
+footer > a{
+    background-color: #171b25;
+}
+
+footer a:hover{
+    background-color: #171b25;
+}
+
+body > section{
+    text-align: center;
+}
+
+header nav a{
+    background-color: #2e3443;
+    color: #02c4c4;
+}
+header nav a:hover{
+    background-color: #8194c7;
+    color: #000;
+}
