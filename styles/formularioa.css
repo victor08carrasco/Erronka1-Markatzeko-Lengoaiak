@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+     flex-wrap: wrap; 
     gap: 80px; 
     width: 90%; 
     max-width: 1200px;
@@ -13,7 +14,6 @@
 }
 
 .formularioa {
-   
     max-width: 520px; 
     padding: 10px 20px;
 }
@@ -25,9 +25,6 @@
 }
 
 
-.formularioa br {
-    display: none;
-}
 
 .formularioa p {
     margin: 4px 0;
@@ -45,12 +42,6 @@
     color: #02c4c4;
     font-weight: bold;
     padding: 0 6px;
-}
-
-.formularioa label {
-    display: block;
-    margin-top: 6px;
-    font-size: 0.9rem;
 }
 
 .formularioa .botoia {
